@@ -1,0 +1,57 @@
+body{
+  font-family: "微软雅黑";
+  padding: 0;
+  margin: 0;
+}
+.flowings {
+  position: relative;
+  padding-top: 60px;
+}
+
+.flowings  .inner{
+  height: 100%;
+  overflow-y: scroll;
+}
+.flowings .area{
+  height: 2000px
+}
+
+.flowings .toolbar{
+  position: fixed;
+  display: block;
+  z-index: 1000;
+  top: 0;
+  width: 100%;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+.flowings .toolbar ul{
+  border-right: #EEE 1px solid;
+  overflow: hidden;
+  float: left;
+  background-color: #FFF;
+  padding: 0;
+  margin-right: 10px;
+}
+
+.flowings .toolbar ul li{
+  list-style: none;
+  display: inline-block;
+  float: left;
+  border: #EEE 1px solid;
+  border-right: 0;
+  padding: 5px 10px;
+  cursor: pointer;
+
+}
+
+.flowings .toolbar ul li.active-true{
+  color: #F90000;
+}
+
+.flowings .toolbar input
+{
+  border: 0;
+  outline: none;
+  font-family: "微软雅黑"
+}
